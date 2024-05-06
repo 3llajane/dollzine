@@ -1,0 +1,6 @@
+#walldoll {
+    position: absolute;
+    top: 50%;
+    left: -1000px;
+    transition: all 2s ease-in-out;
+  }
