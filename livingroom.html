@@ -1,10 +1,70 @@
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body{
             background-image: url(images/livingroom.png);
             background-size: cover;
+            width: 100%;
+            height: 100%;
         }
+        h2{
+            font-size: 60px;
+            text-align:right;
+            padding-top: 565px;
+            padding-right: 100px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        a{
+            color: rgb(221, 116, 214);
+        }
+
+        a:visited{
+            color: rgb(221, 116, 214);
+        }
+        marquee{
+            padding-top: 450px;
+            padding-right: 10px;
+        }
+        footer{
+            text-align: right;
+            padding-top: 600px;
+            padding-right: 100px;
+        }
+    
+        @media only screen and (max-width: 1000px){
+      body{
+          width: 1000px;
+          margin: auto;
+      }
+  
+      .container{
+          padding-top: 0px;
+      }
+  
+      figure.item{
+          width: 500px;
+          height: 500px;
+      }
+  }
+  
+  @media only screen and (max-width: 600px){
+      body{
+          width: 100%;
+          margin: auto;
+      }
+  
+      .container{
+          padding-top: 0px;
+      }
+  
+      figure.item{
+          width: 600px;
+          height: 600px;
+      }
+  
+  }
         </style>
 
     <meta charset="UTF-8">
@@ -13,18 +73,28 @@
     <title>livingroom</title>
 
     <link rel="stylesheet" href="styles.css">
+
+  
+    <marquee behavior="scroll" direction="right">
+        <li><a href="bathroom.html">This way!</a></li>
+        <img src="../images/barbie.gif">
+        </marquee>
+    
+        <audio> <source src="../images/song.mp3" type="audio/mpeg">
+</audio>
+    <audio src="../images/song. mp3" controls></audio>
+       
 </head>
 <body>
     <header>
-        <img src="../images/cursor.gif">
-    
+        <h2><li><a href="bathroom.html">bathroom</a></li></h2>
         <style> 
             h1{text-align: left} 
         </style> 
         <ul>
             <title>Text alignment</title> 
             <li><a href="index.html">index</a>
-            <li><a href="entrance.html">entrance</a>
+            <li><a href="index.html">entrance</a>
             <li><a href="bedroom.html">bedroom</a></li>
             <li><a href="kitchen.html">kitchen</a</li>
              <li><a href="collecting.html">collecting</a></li>

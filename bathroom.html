@@ -1,18 +1,65 @@
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body{
             background-image: url(images/bathroom.png);
-            background-size:auto;
+            background-size:contain;
+            width: 20%;
+            height: 30%;
         }
+
         a{
-            color: rgb(242, 225, 158);
+            color: rgb(213, 131, 176);
         }
 
         a:visited{
-            color: rgb(242, 225, 158);
+            color: rgb(213, 131, 176);
         }
-        
+
+        @keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(45deg);
+  }
+}
+@media only screen and (max-width: 1000px){
+      body{
+          width: 1000px;
+          margin: auto;
+      }
+  
+      .container{
+          padding-top: 0px;
+      }
+  
+      figure.item{
+          width: 500px;
+          height: 500px;
+      }
+  }
+  
+  @media only screen and (max-width: 600px){
+      body{
+          width: 100%;
+          margin: auto;
+      }
+  
+      .container{
+          padding-top: 0px;
+      }
+  
+      figure.item{
+          width: 600px;
+          height: 600px;
+      }
+  
+  }
+
+
         </style>
 
     <meta charset="UTF-8">
@@ -24,26 +71,36 @@
 </head>
 <body>
     <header>
-        <div class="link"><a href="collecting.html"><img src="../images/toiletdoll.png" ></a></div>
+        <div class="link"><a href="collecting.html"><img src="../images/toiletdoll.png" 
+            style="position:fixed; top:410px; right:840px;"
+              width="200" 
+             height="250"></a></div>
+
+             <h1><li><a href="bedroom.html">go to bedroom</a></li></h1>
+
+         <marquee behavior="scroll" direction="alternate">
+                <img src= "../images/door.png"
+                width="200" 
+                height="1000"
+                position="center"
+                >
+            </marquee>
+
+    
     
         <style> 
             h1{text-align: left} 
         </style> 
           <div class="link"><a href="collecting.html"><img src="../images/selfie.png" ></a></div> 
-        <ul>
-            <li><a href="entrance.html">entrance</a>
-            <li><a href="bedroom.html">bedroom</a></li>
-            <li><a href="kitchen.html">kitchen</a</li>
-             <li><a href="collecting.html">collecting</a></li>
-             <li><a href="livingroom.html">livingroom</a></li>
-             <li><a href="wardrobe.html">wardrobe</a></li>
-             <li><a href="exit.html">exit</a></li>
 
-
-        </ul>
         
-        <footer>
-            <p>Ella Mitbo</p> 
+     <footer>
+                <p>
+                    <li><a href="livingroom.html">Back</a></li> 
+                    Ella Mitbo   
+                </p>
+     </footer> 
+      
           </footer>
  </body>
  </html>

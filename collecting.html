@@ -1,20 +1,61 @@
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body{
             background-image: url(images/collecting.png);
             background-size: cover;
+            width: 100%;
+            height: 100%;
         }
 
         a{
             color: rgb(165, 254, 255);
             text-align: right;
+            font-size: 30px;
         }
 
         a:visited{
             color: rgb(202, 249, 255);
         }
- 
+        footer{
+            text-align: right;
+            padding-top: 400px;
+            padding-right: 100px;
+        }
+        @media only screen and (max-width: 1000px){
+      body{
+          width: 1000px;
+          margin: auto;
+      }
+  
+      .container{
+          padding-top: 0px;
+      }
+  
+      figure.item{
+          width: 500px;
+          height: 500px;
+      }
+  }
+  
+  @media only screen and (max-width: 600px){
+      body{
+          width: 100%;
+          margin: auto;
+      }
+  
+      .container{
+          padding-top: 0px;
+      }
+  
+      figure.item{
+          width: 600px;
+          height: 600px;
+      }
+  
+  }
         </style>
 
     <meta charset="UTF-8">
@@ -26,23 +67,22 @@
 </head>
 <body>
     <header>
- 
         <ul>
             <title>Text alignment</title> 
-            <li><a href="index.html">index</a>
-            <li><a href="entrance.html">entrance</a>
+            <li><a href="index.html">entrance</a>
             <li><a href="bedroom.html">bedroom</a></li>
             <li><a href="kitchen.html">kitchen</a</li>
-             <li><a href="livingroom.html">livingroom</a></li>
+             <li><a href="collecting.html">collecting</a></li>
              <li><a href="wardrobe.html">wardrobe</a></li>
              <li><a href="bathroom.html">bathroom</a></li>
-             <li><a href="exit.html">exit</a></li>
+         
 
-
+             
         </ul>
-        
         <footer>
-            <p>Ella Mitbo</p>
+            <li><a href="exit.html">Exit ----> </a></li>
+            <p>
+            </p>
           </footer>
  </body>
  </html>

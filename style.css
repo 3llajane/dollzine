@@ -1,6 +1,43 @@
-#walldoll {
-    position: absolute;
-    top: 50%;
-    left: -1000px;
-    transition: all 2s ease-in-out;
+
+  
+  #top-list{
+    list-style-type: none;
+    list-style: none;}
+
+    body{
+      margin: auto;
+      width: 1600px;
+  }
+  
+  @media only screen and (max-width: 1000px){
+      body{
+          width: 1000px;
+          margin: auto;
+      }
+  
+      .container{
+          padding-top: 0px;
+      }
+  
+      figure.item{
+          width: 500px;
+          height: 500px;
+      }
+  }
+  
+  @media only screen and (max-width: 600px){
+      body{
+          width: 100%;
+          margin: auto;
+      }
+  
+      .container{
+          padding-top: 0px;
+      }
+  
+      figure.item{
+          width: 600px;
+          height: 600px;
+      }
+  
   }

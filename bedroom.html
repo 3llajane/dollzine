@@ -1,10 +1,78 @@
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body{
             background-image: url(images/bedroom.png);
             background-size: cover;
+            width: 100%;
+            height: 100%;
         }
+        a{
+            color: rgba(203, 139, 12, 0.809);
+        }
+
+        a:visited{
+            color: rgb(203, 139,12, 0.809);
+        }
+        img{
+  animation: rotation 9s infinite linear;
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+h1{
+            font-size: 30px;
+            text-align:right;
+            padding-top: 400px;
+            padding-right: 200px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        @media only screen and (max-width: 1000px){
+      body{
+          width: 1000px;
+          margin: auto;
+      }
+  
+      .container{
+          padding-top: 0px;
+      }
+  
+      figure.item{
+          width: 500px;
+          height: 500px;
+      }
+  }
+  
+  @media only screen and (max-width: 600px){
+      body{
+          width: 100%;
+          margin: auto;
+      }
+  
+      .container{
+          padding-top: 0px;
+      }
+  
+      figure.item{
+          width: 600px;
+          height: 600px;
+      }
+  
+  }
         </style>
 
     <meta charset="UTF-8">
@@ -15,27 +83,29 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="link"><a href="collecting.html"><img src="../images/walldoll.png" ></a></div>
+   
+    <div class="link"><a href="collecting.html"><img src="../images/walldoll.png" 
+        style="position:fixed; top:80px; right:560px;"
+     width="140" 
+     height="120"
+     ></a></div>
+
     
         <style> 
             h1{text-align: left} 
         </style> 
-        <ul>
-            <title>Text alignment</title> 
-            <li><a href="index.html">index</a>
-            <li><a href="entrance.html">entrance</a>
-            <li><a href="kitchen.html">kitchen</a</li>
-             <li><a href="collecting.html">collecting</a></li>
-             <li><a href="livingroom.html">livingroom</a></li>
-             <li><a href="wardrobe.html">wardrobe</a></li>
-             <li><a href="bathroom.html">bathroom</a></li>
-             <li><a href="exit.html">exit</a></li>
+       
 
+             <h1><ul id="top-list"></ul><li><a href="wardrobe.html">Open wardrobe!</a></li>
+            </h1>
+       
+            <footer>
+                <p>
+                    <li><a href="bathroom.html">Back</a></li> 
+                    Ella Mitbo   
+                </p>
 
-        </ul>
-        
-        <footer>
-            <p>Ella Mitbo</p>
-          </footer>
+              </footer> 
+      
  </body>
  </html>
